@@ -5,7 +5,7 @@
 int main() {
     char str1[50];
     char str[50];
-    char str3[50];
+    char str3[50]; 
     char str4[50];
     char str11[50], str2[50];
     int k, j;
