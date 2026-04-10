@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-
+//structure of employees
 #define MAX 100
 
 struct Employee {
