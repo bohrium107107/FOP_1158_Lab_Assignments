@@ -1,4 +1,4 @@
-//To calculate rank of student  in exam.
+//To calculate rank of student in exam.
 #include <stdio.h> 
 int main() {
     float a,b,c,d,e;
