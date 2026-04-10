@@ -1,4 +1,4 @@
-//Calculate factorial 
+//Calculate factorial  
 #include <stdio.h>
 int m;
 int factorial(int n) {
