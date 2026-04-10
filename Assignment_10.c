@@ -1,6 +1,6 @@
 //  Calculator with factorial and exponent
 #include <stdio.h>
-#include <math.h>
+#include <math.h> 
 int main(){
     float a;
     float b;
