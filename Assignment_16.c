@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
     int n, i;
-    printf("Enter the number of integers: ");
+    printf("Enter the number of integers: "); 
     scanf("%d", &n);    
     int arr[n], even[n], odd[n];
     int even_count = 0, odd_count = 0;
