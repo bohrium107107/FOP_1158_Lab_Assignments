@@ -1,0 +1,10 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore Linux/macOS compiled outputs
+a.out
+*.out
+
+# Ignore editor config
+.vscode/
+*.exe
