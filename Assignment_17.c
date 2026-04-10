@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//sum of sine series
 int main() {
     int i, n;
     float x, deg, term, sum;
