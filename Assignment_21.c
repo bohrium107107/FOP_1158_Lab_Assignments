@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//copy paste file contents
 int main() {
     FILE *source, *destination;
     char ch;
