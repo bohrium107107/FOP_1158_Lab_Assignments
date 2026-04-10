@@ -15,8 +15,7 @@ Lab Assignments
 8. Accept a student's five course marks and compute his/her result.  
 9. Armstrong number.
 10. Simple calculator that performs addition, subtraction, multiplication, division, power, factorial.  
-11. Compute a) square root of number, b) Square of number, c) Cube of 
-number d) check for prime, d) factorial of number e) prime factors 
+11. Compute a) square root of number, b) Square of number, c) Cube of number d) check for prime, d) factorial of number e) prime factors 
 12. Compute smallest divisor and Greatest Common Divisor of two numbers. 
 13. Print digits of number in a reverse order. 
 14. Binary to decimal.
