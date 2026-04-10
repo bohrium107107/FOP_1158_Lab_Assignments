@@ -1,5 +1,5 @@
-// Calculate lcm, gcd of 2 nos or array of nos
-#include <stdio.h>
+// Calculate lcm, gcd, scd of 2 nos or array of nos
+#include <stdio.h> 
 
 int gcd(int a, int b) {
     while (b != 0) {
