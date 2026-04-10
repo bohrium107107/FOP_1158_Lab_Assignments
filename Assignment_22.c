@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//String operation
 void displayMenu() {
     printf("\n========== STRING OPERATIONS MENU ==========\n");
     printf("1. Length of string\n");
