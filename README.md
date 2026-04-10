@@ -16,16 +16,12 @@ Lab Assignments
 9. Armstrong number.
 10. Simple calculator that performs addition, subtraction, multiplication, division, power, factorial.  
 11. Compute:
-          a) square root of number,
     
-          b) Square of number,
-    
-          c) Cube of number
-    
-          d) check for prime,
-    
-          e) factorial of number,
-    
+          a) square root of number,    
+          b) Square of number,    
+          c) Cube of number,    
+          d) check for prime,    
+          e) factorial of number,    
           f) prime factors. 
 13. Compute smallest divisor and Greatest Common Divisor of two numbers. 
 14. Print digits of number in a reverse order. 
