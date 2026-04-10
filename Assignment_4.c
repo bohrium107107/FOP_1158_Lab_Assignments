@@ -3,7 +3,7 @@
 //5% of basic pay. Let employees pay professional tax as 2% of total salary. Calculate net salary 
 //payable after deductions.
 
-#include <stdio.h>
+#include <stdio.h> 
 int main() { 
     float bs, gs, ns, hra, ta, tax;
     printf("Enter base salary ");
