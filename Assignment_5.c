@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 3
-
+//matrix operations
 void printMatrix(int m[N][N]) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
