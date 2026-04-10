@@ -1,7 +1,7 @@
 //Compute square, square root, cube and cube root of a number, factorial, check if it's prime number, prime factors
 #include <stdio.h>
 #include <math.h>
-int main() {
+int main() { 
     long long n;
     int cnt =0;
     printf("Enter a number: ");
