@@ -15,14 +15,20 @@ Lab Assignments
 8. Accept a student's five course marks and compute his/her result.  
 9. Armstrong number.
 10. Simple calculator that performs addition, subtraction, multiplication, division, power, factorial.  
-11. Compute a) square root of number, b) Square of number, c) Cube of number d) check for prime, d) factorial of number e) prime factors 
-12. Compute smallest divisor and Greatest Common Divisor of two numbers. 
-13. Print digits of number in a reverse order. 
-14. Binary to decimal.
-15. Generate pseudo random numbers 
-16. Partition list into two sub lists even and odd numbers. 
-17. To accept the number of terms a finds the sum of sine series. 
-18. Perform following string operations:
+11. Compute
+          a) square root of number,
+          b) Square of number,
+          c) Cube of number
+          d) check for prime,
+          e) factorial of number,
+          f) prime factors. 
+13. Compute smallest divisor and Greatest Common Divisor of two numbers. 
+14. Print digits of number in a reverse order. 
+15. Binary to decimal.
+16. Generate pseudo random numbers 
+17. Partition list into two sub lists even and odd numbers. 
+18. To accept the number of terms a finds the sum of sine series. 
+19. Perform following string operations:
       - i. Calculate length of string
       - ii. String reversal
       - iii. Equality check of two strings
