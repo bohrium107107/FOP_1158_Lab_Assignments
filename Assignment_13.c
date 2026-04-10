@@ -1,5 +1,5 @@
 //reverse number
-#include <stdio.h>
+#include <stdio.h> 
 
 int main() {
     int num, reverse = 0, remainder;
