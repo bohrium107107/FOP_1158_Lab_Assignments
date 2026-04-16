@@ -1,41 +1,59 @@
-//Compute square, square root, cube and cube root of a number, factorial, check if it's prime number, prime factors
 #include <stdio.h>
 #include <math.h>
-int main() { 
-    long long n;
-    int cnt =0;
+
+int main() {
+    int n, i;
+    long long fact = 1;
+
     printf("Enter a number: ");
-    scanf("%lld",&n);
-    if (n<0) {
-        printf("Invalid input");
-        return 0;
-    }
-    printf("Square: %lld\n",(long long)n*n);
-    printf("Square root: %.2f\n",sqrt(n));
-    printf("Cube: %lld\n",(long long)n*n*n);
-    printf("Cube root: %.2f\n",cbrt(n));
-    
-    long long fact = 1; 
-    for (int i=1; i<=n; i++) {
-        fact *= i;
-    }
-    printf("Factorial: %lld",fact);
-    
+    scanf("%d", &n);
+
+    // a) Square root
+    printf("Square root = %.2f\n", sqrt(n));
+
+    // b) Square
+    printf("Square = %d\n", n * n);
+
+    // c) Cube
+    printf("Cube = %d\n", n * n * n);
+
+    // d) Prime check
+    int isPrime = 1;
+
     if (n <= 1)
-        printf("%d is NOT prime", n);
+        isPrime = 0;
     else {
-
-        for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0)
-                cnt++;
+        for (i = 2; i <= n / 2; i++) {
+            if (n % i == 0) {
+                isPrime = 0;
+                break;
+            }
         }
-
-        if (cnt > 0)
-            printf("\n%d is NOT prime", n);
-
-        else
-            printf("\n%d is prime", n);
     }
-   return 0; 
-    
+
+    if (isPrime)
+        printf("Prime number\n");
+    else
+        printf("Not a prime number\n");
+
+    // e) Factorial
+    if (n < 0) {
+        printf("Factorial not defined for negative numbers\n");
+    } else {
+        for (i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        printf("Factorial = %lld\n", fact);
+    }
+
+    // f) Prime factors
+    printf("Prime factors: ");
+    for (i = 2; i <= n; i++) {
+        while (n % i == 0) {
+            printf("%d ", i);
+            n /= i;
+        }
+    }
+
+    return 0;
 }
