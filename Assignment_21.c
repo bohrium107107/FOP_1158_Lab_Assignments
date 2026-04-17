@@ -15,14 +15,14 @@ int main() {
     
     destination = fopen("destination.txt", "w");
     if (destination == NULL) {
-        printf("Error: Cannot create destination file!<br>");
+        printf("Error: Cannot create destination file!");
         fclose(source);
         return 1;
     }
     
     
     while ((fgets(ch,100,source)) != NULL) {
-        fputc(ch, destination);
+        fputs(ch, destination);
     }
     
     printf("File copied successfully!");
