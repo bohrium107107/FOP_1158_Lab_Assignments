@@ -3,7 +3,7 @@
 //copy paste file contents
 int main() {
     FILE *source, *destination;
-    char ch;
+    char ch[100];
     
     
     source = fopen("source.txt", "r");
@@ -21,7 +21,7 @@ int main() {
     }
     
     
-    while ((ch = fgetc(source)) != EOF) {
+    while ((fgets(ch,100,source)) != NULL) {
         fputc(ch, destination);
     }
     
