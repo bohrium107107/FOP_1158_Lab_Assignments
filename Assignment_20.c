@@ -4,14 +4,14 @@ void swap(int a, int b){
     int temp = a;
     a = b;
     b = temp;
-    printf("a=%d, b=%d\n ", a,b);
+    
 }
 
 void swapbyref(int *a, int *b){
     int temp = *a;
     *a = *b;
     *b = temp;
-    printf("a by ref = %d, b by ref = %d ", *a,*b);
+    
 }
 
 
@@ -25,9 +25,11 @@ int main() {
     switch (c){
     case 1:
         swap(a,b);
+        printf("a=%d, b=%d\n ", a,b);
         break;
     case 2:        
         swapbyref(&a,&b);
+        printf("a by ref = %d, b by ref = %d ", *a,*b);
         break;
     }
     return 0;
