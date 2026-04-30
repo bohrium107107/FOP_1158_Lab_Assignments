@@ -4,7 +4,7 @@ Akanksha Mukund Dange
 
 DIV-3
 
-Lab Assignments
+Lab Assignments for FOP:
 1. Check leap year. 
 2. Menu driven program in C to implement the basic arithmetic operations. 
 3. Generate multiplication tables. 
